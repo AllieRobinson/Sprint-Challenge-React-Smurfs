@@ -1,3 +1,97 @@
 .App {
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #051937;
+  padding-right: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+h1 {
+  color: #051937;
+  font-size: 1.6rem;
+}
+
+h3 {
+  color: #051937;
+  font-weight: 600;
+  margin: 5px;
+}
+
+strong {
+  color: #051937; 
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+p {
+  color: #051937;
+  margin: 5px;
+  font-size: 0.9rem;
+}
+
+.Smurf {
+  background-image: linear-gradient(to right top, #051937, #002763, #003491, #003fc0, #0c47ee);
+  padding: 40px;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+}
+
+.Smurfs {
+  display: flex;
+  flex-direction: column;
+}
+
+.whitespace {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 7px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SmurfForm {
+  display: inline-block;
+  margin: 20px;
+}
+
+button {
+  border: 2px solid #051937;
+  border-radius: 4px;
+  background-color: white;
+  margin: 8px 0;
+  padding: 12px 20px;
+  color: #051937;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #051937;
+  color: white;
+}
+
+a:hover {
+  color: #0c47ee;
 }
